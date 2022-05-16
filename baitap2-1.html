@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG KÍ HỌC VIÊN</title>
+</head>
+<style>
+    body {
+        display:flex;
+            justify-content: center;     
+    }
+    p{
+        display: inline-block;
+        color: blue;
+    }
+</style>
+<body>
+    <form action="DK" style="background-color: rgb(219, 219, 130);"> 
+        <h1 align="center" style="color: rgb(47, 1, 155); background-color: rgb(62, 194, 255);">Đăng kí học viên</h1>
+
+        <p >Họ và tên</p><input type="text"><br>
+        
+        <p >Ngày sinh</p><input type="date"> <br>
+        <p >Giới tính</p>
+                         <input type="radio" name="sex" value="Nam"> Nam 
+                         <input type="radio" name="sex" value="Nữ"> Nữ<br>
+        <p >Địa chỉ</p> <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <p >Lớp</p>
+        <select name="" id="">
+            <option value="Lớp 1">-- Chọn lớp --</option>
+            <option value="Lớp 1">Lớp 1</option>
+            <option value="Lớp 1">Lớp 2</option>
+            <option value="Lớp 1">Lớp 3</option>
+        </select> <br>
+        <p >Email</p>  <input type="email">  <br>
+        <p >Điện thoại</p> <input type="text"><br>
+        <button>Đăng kí</button>
+        <input type="reset" value="Nhập lại"/>
+    </form>
+</body>
+</html> 
